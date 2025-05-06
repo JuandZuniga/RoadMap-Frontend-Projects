@@ -3,27 +3,107 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Frontend Developer WebSite</title>
+    <link rel="stylesheet" href="./index.css">
 </head>
-<body>
-    <head>
+<body data-theme="light">
+    <header>
         <img src="your-logo.png" alt="your logo">
             <nav>
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Project</a></li>
-                    <li><a href="">Articles</a></li>
-                    <li><a href="">Contact</a></li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/project">Project</a></li>
+                    <li><a href="/article">Articles</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                    <button class ="change-theme" onclick="changeTheme()">
+                      <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  
+                      id="moon-icon"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" /></svg>
+
+                      <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  
+                      id="sun-icon">"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" /><path d="M3 12h1m8 -9v1m8 8h1m-9 8v1m-6.4 -15.4l.7 .7m12.1 -.7l-.7 .7m0 11.4l.7 .7m-12.1 -.7l-.7 .7" /></svg>
                 </ul>
+                
             </nav>
-    </head>
+    </header>
 
     <main>
-        <h1>Frontend Developer</h1>
-        <p>html only project layout, no style</p>
+        <section class="hero">
+            <h1>Frontend Developer</h1>
+            <p>html only project layout, no style</p>
+        </section>
+
+        <div class="container">
+            <section class="project">
+                <h2>Projects</h2>
+                <ul>
+                    <li>HTML Only Portfolio</li>
+                    <li>Calculator</li>
+                    <li>Quiz App</li>
+                    <li>Countdown Timer</li>
+                    <li>Product Upcoming Page</li>
+                </ul>
+            </section>
+
+            <section class="work-expiernce">
+                <article class="first-article">
+                    <h2>Work Experiene</h2>
+                    <span>roadmap.sh</span>
+                    <p>Solved all the Frontend projects</p>
+                    <a href="">View my profile</a>
+                </article>
+
+                <article>
+                    <h2>OpenSource Work</h2>
+                    <p>Contributed to 50 opensource project. Made my own project with 200 Github stars</p>
+                    <a href="">Visit my Github profile</a>
+                </article>
+            </section>
+
+            <section class="education">
+                <h2>Education</h2>
+                <p>
+                  Undergraduate in Computer Science from Western Governors University
+                </p>
+                <p>
+                  Courses:
+                </p>
+                <ul>
+                  <li>Object Oriented Programming</li>
+                  <li>Data Structures and Algorithms</li>
+                  <li>Web Engineering</li>
+                  <li>Artificial Intelligence</li>
+                  <li>Human-Computer Interaction</li>
+                  <li>Computer Graphics</li>
+                  <li>Database Management Systems</li>
+                  <li>Distributed Database Systems</li>
+                  <li>Discrete Mathematics</li>
+                </ul>
+              </section>
+            
+        </div>
+
+        <aside class="reviews">
+            <h2>Feedback from Peers</h2>
+            <div class="feedback">
+              <div>
+                <p>John Doe was a brilliant student; always stood out with <br>his assignments.</p>
+                <small><span>Jane Doe, Assistant Professor</span></small>
+              </div>
+              <div>
+                <p>John Doe was a brilliant student; always stood out with <br>his assignments.</p>
+                <small><span>Jane Doe, Assistant Professor</span></small>
+              </div>
+              <div>
+                <p>John Doe was a brilliant student; always stood out with <br>his assignments.</p>
+                <small><span>Jane Doe, Assistant Professor</span></small>
+              </div>
+            </div>
+          </aside>
     </main>
 
     <footer>
-        <p>@all rights reserved 2025</p>
+        <p>@all rights reserved 2025</p>    
     </footer>
 </body>
+
+<script src="/basicHTMLWebSite/script.js"></script>
 </html>
