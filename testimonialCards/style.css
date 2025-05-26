@@ -1,0 +1,163 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+}
+
+.testimonial-content{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.speech-bubble{
+    background: #1e1e1e;
+    color: #f9f9f9;
+    border: 1px solid;
+    border-radius: 24px;
+}
+
+.speech-bubble p{
+    padding: 16px;          
+    max-width: 500px;       
+    width: 100%;
+}
+
+.speech-bubble a{
+    text-decoration: none;
+    color: #f9f9f9;
+}
+
+.profile, 
+.profile2{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding-top: 2rem;
+}
+
+.profile img,
+.profile2 img{
+    width: 72px;
+    height: 72px;
+    border-radius: 100%;
+}
+
+.profile-info h3 {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.profile-info span {
+    color: grey;
+    font-size: 0.9rem;
+}
+
+.testimonial-card2{
+    max-width: 400px;       
+    width: 100%;
+    height: 100%;
+    border: 2px solid;
+    border-radius: 24px;
+    padding: 20px
+}
+
+.testimonial-card2 p{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.testimonial-card3 img{
+    width: 33%;
+    max-width: 250px;
+    border-radius: 15px;
+}
+
+.testimonial-card3{
+    display: flex;
+    justify-content: flex-start;
+    gap: 16px;
+    max-width: 50%;
+}
+
+.testimonial-card3 .testimonial-content{
+    border: 2px solid;
+    border-radius: 25px;
+    align-items: flex-start;
+    padding: 1rem;
+    background-color: #1e1e1e;
+    color: #f9f9f9;
+}
+
+.testimonial-card3 .raiting{
+    color: yellow;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.testimonial-card3 h3{
+    font-size: 1,75rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.testimonial-card3 .position{
+    color: grey;
+    margin-bottom: 0.5rem;
+}
+
+.testimonial-slider{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 50%;
+    border: 2px solid;
+    border-radius: 25px;
+    padding: 1rem;
+}
+
+.testimonial-slider .content-slider{
+    text-align: center;
+}
+
+.profile-slider{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 50px;
+}
+.profile-slider img{
+    width: 65px;
+    height: 65px;
+    border-radius: 100%;
+}
+
+.testimonial-slider .image-unfocused{
+    scale: 0.8;
+    opacity: 0.5;
+}
+
+.profile-slider .prev,
+.profile-slider .next {
+    cursor: pointer;
+}
+
+.testimonials{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+
+
+
+
+
