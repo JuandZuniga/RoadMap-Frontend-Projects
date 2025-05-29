@@ -1,0 +1,63 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accesible form UI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="big-box">
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="name">Full name</label>
+                <input type="text" id="name" name="name"  placeholder="What should call you" aria-required="true">
+            </div>
+
+            <div class="form-group">
+                <label for="email"> Email</label>
+                <input type="email" id="email" name="email" placeholder="example@gmail.com" aria-required="true">
+            </div>
+
+            <div class="form-group password container">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password">
+                <button type="button" class="button-password">
+                    <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1.25"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-eye-off"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M10.585 10.587a2 2 0 0 0 2.829 2.828" /><path d="M16.681 16.673a8.717 8.717 0 0 1 -4.681 1.327c-3.6 0 -6.6 -2 -9 -6c1.272 -2.12 2.712 -3.678 4.32 -4.674m2.86 -1.146a9.055 9.055 0 0 1 1.82 -.18c3.6 0 6.6 2 9 6c-.666 1.11 -1.379 2.067 -2.138 2.87" />
+                        <path d="M3 3l18 18" /></svg>
+                </button>
+            </div>
+
+            <div class="form-group password container">
+                <label for="password">Confirm Password</label>
+                <input type="password" name="password" id="password">
+                <button type="button" class="button-password">
+                    <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1.25"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-eye-off"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M10.585 10.587a2 2 0 0 0 2.829 2.828" /><path d="M16.681 16.673a8.717 8.717 0 0 1 -4.681 1.327c-3.6 0 -6.6 -2 -9 -6c1.272 -2.12 2.712 -3.678 4.32 -4.674m2.86 -1.146a9.055 9.055 0 0 1 1.82 -.18c3.6 0 6.6 2 9 6c-.666 1.11 -1.379 2.067 -2.138 2.87" />
+                        <path d="M3 3l18 18" /></svg>
+                </button>
+                <span class="error"> Password must be match</span>
+            </div>
+
+            <div class="form-group">
+                <button type="submit" class="update-profile"> Update Profiel</button>
+            </div>
+
+            <div class="progress-container">
+                <div class="progress-bar">
+                    <div class="progres"></div>
+                </div>
+                <p>65%</p>
+            </div>
+
+            <div class="form-footer">
+                <ul class="checklist">
+                <li class="complete">Create Account</li>
+                <li class="complete">Update Roadmap Progress</li>
+                <li class="complete">Setup Public Profile</li>
+                <li>Complete your first project</li>
+                <li>Invite your Friends</li>
+                </ul>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
