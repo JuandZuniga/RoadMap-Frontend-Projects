@@ -7,3 +7,4 @@
 5. Proyectos completados de [Testimonial Card](https://roadmap.sh/projects/testimonial-cards)
 6. Proyectos completados de [DatePickerUI](https://roadmap.sh/projects/datepicker-ui?fl=0)
 7. Proyectos completados de [Accesible Form UI](https://roadmap.sh/projects/accessible-form-ui)
+8. Proyectos completados de [Image Grid Layout](https://roadmap.sh/projects/image-grid?fl=0)
