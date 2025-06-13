@@ -8,4 +8,5 @@
 6. Proyectos completados de [DatePickerUI](https://roadmap.sh/projects/datepicker-ui?fl=0)
 7. Proyectos completados de [Accesible Form UI](https://roadmap.sh/projects/accessible-form-ui)
 8. Proyectos completados de [Image Grid Layout](https://roadmap.sh/projects/image-grid?fl=0)
-8. Proyectos completados de [TooltipUI](https://roadmap.sh/projects/tooltip-ui)
+9. Proyectos completados de [TooltipUI](https://roadmap.sh/projects/tooltip-ui)
+10. Proyectos completados de [Taps](https://roadmap.sh/projects/simple-tabs)
